@@ -7,10 +7,11 @@ public class Main {
         if (replenishment > 1000) {
             int bonus = replenishment / 100 * 1;
             int finalBalance = bonus + replenishment + balance;
-            System.out.println(finalBalance);
+            System.out.println("Итоговый счет:" + finalBalance);
+            System.out.println( "Бонус:" + bonus);
         } else {
             int balanceNoBonus = replenishment + balance;
-            System.out.println(balanceNoBonus);
+            System.out.println("Итоговый счет" + balanceNoBonus);
         }
 
 
